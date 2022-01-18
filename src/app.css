@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	h1 {
+		font-family: 'Bellefair', serif;
+		font-size: 150px;
+	}
+
+	h2 {
+		font-family: 'Bellefair', serif;
+		font-size: 100px;
+	}
+
+	h3 {
+		font-family: 'Bellefair', serif;
+		font-size: 56px;
+	}
+
+	h4 {
+		font-family: 'Bellefair', serif;
+		font-size: 32px;
+	}
+
+	h5 {
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 28px;
+		letter-spacing: 4.75px;
+	}
+
+	.font-body {
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 18px;
+		line-height: 32px;
+	}
+
+	.font-nav {
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 16px;
+		letter-spacing: 2.7px;
+	}
+
+	.font-subheading-one {
+		font-family: 'Bellefair', serif;
+		font-size: 28px;
+	}
+
+	.font-subheading-two {
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 14px;
+		letter-spacing: 2.35px;
+	}
+}
