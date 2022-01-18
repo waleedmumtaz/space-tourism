@@ -10,7 +10,7 @@
 	};
 </script>
 
-<nav class="font-nav mb-6">
+<nav class="font-nav mb-3">
 	<div class="relative p-5">
 		<div class="flex justify-between items-center">
 			<img src="/shared/logo.svg" alt="logo" />
