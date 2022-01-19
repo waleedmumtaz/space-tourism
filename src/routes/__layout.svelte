@@ -19,7 +19,9 @@
 	}
 </script>
 
-<div class={`min-h-screen text-white flex flex-col ${backgroundImagePath} bg-no-repeat bg-cover`}>
+<div
+	class={`min-h-screen text-white flex flex-col ${backgroundImagePath} bg-no-repeat bg-cover pb-5`}
+>
 	<header>
 		<Nav />
 	</header>
