@@ -22,8 +22,8 @@
 			</p>
 		</div>
 		<a
-			href="/"
-			class="bg-white text-cstm-rich-black rounded-full inline-flex justify-center items-center w-[150px] h-[150px]"
+			href="/destination"
+			class="mt-10 bg-white text-cstm-rich-black rounded-full inline-flex justify-center items-center w-[150px] h-[150px]"
 		>
 			<p class="font-bellefair uppercase text-[20px]">Explore</p>
 		</a>
