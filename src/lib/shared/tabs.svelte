@@ -37,6 +37,19 @@
 	</div>
 {:else if flag === 'technology'}
 	<div class="mb-10">
-		<h4>Technology tabs here</h4>
+		<ul class="flex justify-center items-center gap-6 mb-10">
+			{#each tabs as tab}
+				<li
+					on:click={() => dispatch('tabChange', tab)}
+					class={`${
+						tab === activeTab
+							? 'bg-white text-black'
+							: 'bg-black text-white border-[1px] border-gray-500'
+					} w-10 h-10 rounded-full inline-flex justify-center items-center`}
+				>
+					{tab}
+				</li>
+			{/each}
+		</ul>
 	</div>
 {/if}

@@ -7,7 +7,7 @@
 
 	let tabs = ['Moon', 'Mars', 'Europa', 'Titan'];
 	let activeTab = 'Moon';
-	let flag = 'destination'
+	let flag = 'destination';
 
 	const tabChange = (e) => {
 		activeTab = e.detail;
