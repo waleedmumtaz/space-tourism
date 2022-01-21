@@ -4,7 +4,7 @@
 	import '../app.css';
 
 	let pageUrl = $page.url.pathname;
-	let backgroundImagePath;
+	let backgroundImagePath = '';
 
 	if (pageUrl === '/') {
 		backgroundImagePath = "bg-[url('/home/background-home-mobile.jpg')]";

@@ -14,7 +14,7 @@
 	};
 </script>
 
-<div class="font-nav text-center px-7 pb-20">
+<div class="font-nav text-center px-7 pb-20 md:max-w-6xl md:mx-auto">
 	<p class="uppercase mb-10 sm:mb-14 sm:text-left sm:text-2xl">
 		<span class="text-cstm-lavender-blue mr-3">01</span>Pick Your Destination
 	</p>

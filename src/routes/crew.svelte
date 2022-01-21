@@ -14,7 +14,7 @@
 	};
 </script>
 
-<div class="font-nav text-center px-7 ">
+<div class="font-nav text-center px-7 md:max-w-6xl md:mx-auto">
 	<p class="uppercase mb-10 sm:mb-14 sm:text-left sm:text-2xl">
 		<span class="text-cstm-lavender-blue mr-3">02</span>Meet Your Crew
 	</p>

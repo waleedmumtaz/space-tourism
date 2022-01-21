@@ -8,7 +8,7 @@
 	let bio = douglasData.bio;
 </script>
 
-<div class="sm:grid sm:grid-cols-1">
+<div class="sm:grid sm:grid-cols-1 md:grid-cols-2 md:gap-20 md:items-center">
 	<div class="relative sm:order-last">
 		<img src={imageUrl} alt={name} class="w-60 sm:w-96 mx-auto mt-4 mb-8 sm:mb-0" />
 		<div
@@ -17,12 +17,13 @@
 	</div>
 	<div>
 		<div class="uppercase mb-5">
-			<p class="font-bellefair text-[16px] sm:text-2xl text-cstm-lavender-blue sm:mb-5">{role}</p>
+			<p class="font-bellefair text-[16px] sm:text-2xl text-cstm-lavender-blue sm:mb-5 md:text-left">{role}</p>
 			<p />
-			<p class="font-subheading-one sm:text-5xl">{name}</p>
+			<p class="font-subheading-one sm:text-5xl md:text-left">{name}</p>
 		</div>
-		<p class="font-body tracking-normal text-cstm-lavender-blue sm:max-w-md sm:mx-auto sm:mb-20">
+		<p class="font-body tracking-normal text-cstm-lavender-blue sm:max-w-md sm:mx-auto sm:mb-20 md:text-left md:mt-10 md:ml-0">
 			{bio}
 		</p>
 	</div>
 </div>
+

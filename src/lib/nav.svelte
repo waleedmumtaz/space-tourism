@@ -11,7 +11,7 @@
 		isNavOpen = false;
 	};
 
-	const pageUrl = $page.url.pathname;
+	$: pageUrl = $page.url.pathname;
 </script>
 
 <nav class="font-nav mb-3 relative z-50">
