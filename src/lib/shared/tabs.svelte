@@ -27,7 +27,7 @@
 	</div>
 {:else if flag === 'crew'}
 	<div class="mb-10">
-		<ul class="flex justify-center items-center gap-6 mb-8">
+		<ul class="flex justify-center items-center gap-6 mb-8 sm:mb-16">
 			{#each tabs as tab}
 				<li on:click={() => dispatch('tabChange', tab)}>
 					<div class={`${tab === activeTab ? 'bg-white' : 'bg-gray-500'} w-4 h-4 rounded-full`} />
@@ -45,7 +45,7 @@
 						tab === activeTab
 							? 'bg-white text-black'
 							: 'bg-black text-white border-[1px] border-gray-500'
-					} w-10 h-10 rounded-full inline-flex justify-center items-center`}
+					} w-10 h-10 sm:w-16 sm:h-16 sm:text-2xl rounded-full inline-flex justify-center items-center`}
 				>
 					{tab}
 				</li>

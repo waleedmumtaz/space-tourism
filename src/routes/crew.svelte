@@ -14,8 +14,8 @@
 	};
 </script>
 
-<div class="font-nav text-center px-7">
-	<p class="uppercase mb-10">
+<div class="font-nav text-center px-7 ">
+	<p class="uppercase mb-10 sm:mb-14 sm:text-left sm:text-2xl">
 		<span class="text-cstm-lavender-blue mr-3">02</span>Meet Your Crew
 	</p>
 	<Tabs {tabs} {activeTab} {flag} on:tabChange={tabChange} />

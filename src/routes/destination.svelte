@@ -14,8 +14,8 @@
 	};
 </script>
 
-<div class="font-nav text-center px-7">
-	<p class="uppercase mb-10">
+<div class="font-nav text-center px-7 pb-20">
+	<p class="uppercase mb-10 sm:mb-14 sm:text-left sm:text-2xl">
 		<span class="text-cstm-lavender-blue mr-3">01</span>Pick Your Destination
 	</p>
 	<Tabs {tabs} {activeTab} {flag} on:tabChange={tabChange} />

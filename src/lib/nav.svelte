@@ -59,7 +59,7 @@
 	</div>
 
 	<!-- tablet nav -->
-	<div class="hidden sm:block p-5">
+	<div class="hidden sm:block sm:container sm:mx-auto pt-5 mb-20">
 		<div class="flex justify-between items-center">
 			<img src="/shared/logo.svg" alt="logo" />
 			<ul class="flex uppercase gap-10">
