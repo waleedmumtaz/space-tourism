@@ -14,11 +14,13 @@
 	$: pageUrl = $page.url.pathname;
 </script>
 
-<nav class="font-nav mb-3 relative z-50">
+<nav class="font-nav mb-3 relative z-50 sm:container sm:mx-auto">
 	<!-- mobile nav -->
 	<div class="sm:hidden relative p-5">
 		<div class="flex justify-between items-center">
-			<img src="/shared/logo.svg" alt="logo" />
+			<a href="/">
+				<img src="/shared/logo.svg" alt="logo" />
+			</a>
 			<button on:click|preventDefault={toggleNav}>
 				<img
 					src="/shared/icon-hamburger.svg"
@@ -58,11 +60,14 @@
 		</div>
 	</div>
 
-	<!-- tablet nav -->
-	<div class="hidden sm:block sm:container sm:mx-auto pt-5 mb-20">
+	<!-- tablet and desktop nav -->
+	<div class="hidden sm:block sm:container sm:mx-auto p-5 mb-20 md:mb-0">
 		<div class="flex justify-between items-center">
-			<img src="/shared/logo.svg" alt="logo" />
-			<ul class="flex uppercase gap-10">
+			<a href="/">
+				<img src="/shared/logo.svg" alt="logo" />
+			</a>
+			<div class="hidden md:block md:flex-1 md:bg-gray-500 md:h-[1px] md:mx-10" />
+			<ul class="flex uppercase gap-10 md:gap-20">
 				<li class="relative">
 					<a
 						href="/"
@@ -70,7 +75,7 @@
 							pageUrl === '/'
 								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
 								: ''
-						}`}>Home</a
+						}`}><span class="hidden md:inline font-bold">00</span> Home</a
 					>
 				</li>
 				<li class="relative">
@@ -80,7 +85,7 @@
 							pageUrl === '/destination'
 								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
 								: ''
-						}`}>Destination</a
+						}`}><span class="hidden md:inline font-bold">01</span> Destination</a
 					>
 				</li>
 				<li class="relative">
@@ -90,7 +95,7 @@
 							pageUrl === '/crew'
 								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
 								: ''
-						}`}>Crew</a
+						}`}><span class="hidden md:inline font-bold">02</span> Crew</a
 					>
 				</li>
 				<li class="relative">
@@ -100,7 +105,7 @@
 							pageUrl === '/technology'
 								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
 								: ''
-						}`}>Technology</a
+						}`}><span class="hidden md:inline font-bold">03</span> Technology</a
 					>
 				</li>
 			</ul>

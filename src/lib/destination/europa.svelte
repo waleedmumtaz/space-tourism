@@ -3,7 +3,7 @@
 
 	let europaData = data.destinations[2];
 	let name = europaData.name;
-	let imageUrl = europaData.images.png;
+	let imageUrl = europaData.images.webp;
 	let description = europaData.description;
 	let distance = europaData.distance;
 	let travel = europaData.travel;

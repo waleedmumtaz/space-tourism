@@ -3,7 +3,7 @@
 
 	let titanData = data.destinations[3];
 	let name = titanData.name;
-	let imageUrl = titanData.images.png;
+	let imageUrl = titanData.images.webp;
 	let description = titanData.description;
 	let distance = titanData.distance;
 	let travel = titanData.travel;
@@ -16,7 +16,9 @@
 	<div>
 		<h3 class="uppercase sm:hidden">{name}</h3>
 		<h2 class="uppercase hidden sm:block md:text-left">{name}</h2>
-		<p class="font-body text-cstm-lavender-blue tracking-normal sm:max-w-lg sm:mx-auto md:text-left">
+		<p
+			class="font-body text-cstm-lavender-blue tracking-normal sm:max-w-lg sm:mx-auto md:text-left"
+		>
 			{description}
 		</p>
 		<div class="bg-gray-700 h-[1px] my-10" />

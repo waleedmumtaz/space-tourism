@@ -3,7 +3,7 @@
 
 	let moonData = data.destinations[0];
 	let name = moonData.name;
-	let imageUrl = moonData.images.png;
+	let imageUrl = moonData.images.webp;
 	let description = moonData.description;
 	let distance = moonData.distance;
 	let travel = moonData.travel;

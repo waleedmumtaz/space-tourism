@@ -3,7 +3,7 @@
 
 	let marsData = data.destinations[1];
 	let name = marsData.name;
-	let imageUrl = marsData.images.png;
+	let imageUrl = marsData.images.webp;
 	let description = marsData.description;
 	let distance = marsData.distance;
 	let travel = marsData.travel;
