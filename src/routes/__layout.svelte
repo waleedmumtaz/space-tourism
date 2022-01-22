@@ -27,6 +27,36 @@
 	}
 </script>
 
+<!-- Primary Meta Tags -->
+<meta name="title" content="Space Tourism" />
+<meta name="description" content="Space Tourism Website built with SvelteKit and Tailwind CSS" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://space-tourism-beige.vercel.app/" />
+<meta property="og:title" content="Space Tourism" />
+<meta
+	property="og:description"
+	content="Space Tourism Website built with SvelteKit and Tailwind CSS"
+/>
+<meta
+	property="og:image"
+	content="https://res.cloudinary.com/dev-waleed/image/upload/v1642880622/Frontend%20Mentor/Meta%20Images/021_space-tourism-website_1200x628.png"
+/>
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://space-tourism-beige.vercel.app/" />
+<meta property="twitter:title" content="Space Tourism" />
+<meta
+	property="twitter:description"
+	content="Space Tourism Website built with SvelteKit and Tailwind CSS"
+/>
+<meta
+	property="twitter:image"
+	content="https://res.cloudinary.com/dev-waleed/image/upload/v1642880622/Frontend%20Mentor/Meta%20Images/021_space-tourism-website_1200x628.png"
+/>
+
 <div
 	class={`min-h-screen text-white flex flex-col ${backgroundMobileImagePath} ${backgroundTabletImagePath} ${backgroundDesktopImagePath} bg-no-repeat bg-cover flex flex-col`}
 >
