@@ -73,9 +73,10 @@
 						href="/"
 						class={`${
 							pageUrl === '/'
-								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
+								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full after:hover:bg-white'
 								: ''
-						}`}><span class="hidden md:inline font-bold">00</span> Home</a
+						} after:hover:absolute after:hover:h-1 after:hover:w-full after:hover:bg-gray-400 after:hover:left-0 after:hover:-bottom-5 after:hover:rounded-full`}
+						><span class="hidden md:inline font-bold">00</span> Home</a
 					>
 				</li>
 				<li class="relative">
@@ -83,9 +84,10 @@
 						href="/destination"
 						class={`${
 							pageUrl === '/destination'
-								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
+								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full after:hover:bg-white'
 								: ''
-						}`}><span class="hidden md:inline font-bold">01</span> Destination</a
+						} after:hover:absolute after:hover:h-1 after:hover:w-full after:hover:bg-gray-400 after:hover:left-0 after:hover:-bottom-5 after:hover:rounded-full`}
+						><span class="hidden md:inline font-bold">01</span> Destination</a
 					>
 				</li>
 				<li class="relative">
@@ -93,9 +95,10 @@
 						href="/crew"
 						class={`${
 							pageUrl === '/crew'
-								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
+								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full after:hover:bg-white'
 								: ''
-						}`}><span class="hidden md:inline font-bold">02</span> Crew</a
+						} after:hover:absolute after:hover:h-1 after:hover:w-full after:hover:bg-gray-400 after:hover:left-0 after:hover:-bottom-5 after:hover:rounded-full`}
+						><span class="hidden md:inline font-bold">02</span> Crew</a
 					>
 				</li>
 				<li class="relative">
@@ -103,9 +106,10 @@
 						href="/technology"
 						class={`${
 							pageUrl === '/technology'
-								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full'
+								? 'after:absolute after:h-1 after:w-full after:bg-white after:left-0 after:-bottom-5 after:rounded-full after:hover:bg-white'
 								: ''
-						}`}><span class="hidden md:inline font-bold">03</span> Technology</a
+						} after:hover:absolute after:hover:h-1 after:hover:w-full after:hover:bg-gray-400 after:hover:left-0 after:hover:-bottom-5 after:hover:rounded-full`}
+						><span class="hidden md:inline font-bold">03</span> Technology</a
 					>
 				</li>
 			</ul>

@@ -19,7 +19,7 @@
 		<div>
 			<a
 				href="/destination"
-				class="mt-10 bg-white text-cstm-rich-black rounded-full inline-flex justify-center items-center w-[150px] sm:w-[225px] h-[150px] sm:h-[225px]"
+				class="mt-10 bg-white text-cstm-rich-black rounded-full inline-flex justify-center items-center w-[150px] sm:w-[225px] h-[150px] sm:h-[225px] hover:outline hover:outline-[40px] hover:outline-gray-700"
 			>
 				<p class="font-bellefair uppercase text-[20px] sm:text-[32px]">Explore</p>
 			</a>
