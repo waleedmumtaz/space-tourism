@@ -14,6 +14,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Destinations | Space Tourism</title>
+</svelte:head>
+
 <div
 	class="flex-1 font-nav text-center pb-10 md:pb-0 px-7 md:max-w-7xl md:mx-auto md:flex md:flex-col md:justify-center"
 >

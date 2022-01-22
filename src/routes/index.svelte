@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Home | Space Tourism</title>
+</svelte:head>
+
 <main class="flex-1 flex flex-col md:justify-end sm:container sm:mx-auto">
 	<div
 		class="text-center px-7 pb-10 flex-1 flex flex-col items-center justify-around md:grid md:grid-cols-2 md:place-items-center"

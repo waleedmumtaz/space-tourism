@@ -14,6 +14,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Crew | Space Tourism</title>
+</svelte:head>
+
 <div
 	class="flex-1 font-nav text-center pb-10 sm:pb-0 md:mt-0 px-7 md:max-w-7xl md:mx-auto md:w-full md:relative md:flex md:flex-col md:justify-end"
 >

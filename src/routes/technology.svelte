@@ -13,6 +13,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Technology | Space Tourism</title>
+</svelte:head>
+
 <div
 	class="flex-1 md:flex md:flex-col md:justify-center md:max-w-7xl md:mx-auto md:relative w-full md:px-5"
 >
